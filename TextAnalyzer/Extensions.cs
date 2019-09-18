@@ -75,5 +75,10 @@ namespace TextAnalyzer
             }
             return wynik;
         }
+        public static string AddStars(this string tekst)
+        {
+            string wynik = "***" + tekst + "***";
+            return wynik;
+        }
     }
 }
