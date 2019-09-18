@@ -80,5 +80,10 @@ namespace TextAnalyzer
             string wynik = "***" + tekst + "***";
             return wynik;
         }
+        public static bool ContainsOK(this string tekst)
+        {
+            bool wynik = tekst.Contains("ok");
+            return wynik;
+        }
     }
 }

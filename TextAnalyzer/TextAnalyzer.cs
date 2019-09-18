@@ -38,6 +38,7 @@ namespace TextAnalyzer
             Console.WriteLine($"Ilość dużych liter:{Tekst.UpperCount()}");
             Console.WriteLine($"Ilość małych liter:{Tekst.LowerCount()}");
             Console.WriteLine($"Długość tekstu:{Tekst.Length}");
+            Console.WriteLine( Tekst.ContainsOK()?"Zawiera \"ok\"." : "Nie zawiera \"ok\"."); 
             Stopwatch.Stop();
             Console.WriteLine($"Czas analizy:{Stopwatch.ElapsedMilliseconds} ms");
         }
